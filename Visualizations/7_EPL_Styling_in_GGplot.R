@@ -17,7 +17,7 @@
 CLUB_WEBPAGE <- "https://nr.soccerway.com/teams/england/manchester-city-football-club/676/"
 require(rvest); require(xml2); require(dplyr); require(extrafont)
 
-extrafont::font_import()
+# extrafont::font_import()
 
 ws <- read_html(CLUB_WEBPAGE)
 club.name <- ws %>% html_node("h1") %>% html_text() %>% as.character()
@@ -158,3 +158,4 @@ img <- readPNG(getURLContent(logo_url))
 g <- rasterGrob(img, interpolate=TRUE) 
 p <- p + annotation_custom(g, xmin=375, xmax=374 + 70 , ymin=468, ymax=468 + 70)
 plot_grid(p, scale=1.1)
+

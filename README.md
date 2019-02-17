@@ -1,7 +1,7 @@
 ## Visualizations based on FcRStats repository
 
 
-Learn to build data visualisations in R
+Learn to build soccer visualisations in R 
 
 1. [Scatter Plots & Crosshairs with ggPlot2 - EPL2017-18](https://github.com/davidfombella/FCrSTATS/blob/master/Visualizations/1_ScatterPlots_and_CrossHairs_EPL_2017_18_Goals_For_and_Against.R)
     <img src="Visualizations/1_Goals_For_Against_EPL_2017_18.png" />
@@ -19,3 +19,6 @@ Learn to build data visualisations in R
    
 6. [Layered Histograms to show Passing Origins with France in Final World Cup 2018 from Statsbomb](https://github.com/davidfombella/FCrSTATS/blob/master/Visualizations/6_Passing_Origins_StatsBomb.R)
    <img src="Visualizations/6_France_Passers_Final_WCup.png" />
+   
+7. [EPL Style Manchester City Fixtures](https://github.com/davidfombella/FCrSTATS/blob/master/Visualizations/7_EPL_Styling_in_GGplot.R)
+   <img src="Visualizations/7_EPL_Man_City_Style.png" />
